@@ -65,8 +65,6 @@ col_tbl <- as_tibble(col_df) %>%
 num_bad_chars <- nrow(col_tbl)
 
 
-
-
 cat(format(nrow(lehd_file), nsmall=0, big.mark=","),
   "Observations were found. \nBegining cleaning of",fName,
   "- This may take several minutes.\n")
